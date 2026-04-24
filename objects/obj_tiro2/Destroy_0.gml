@@ -1,1 +1,0 @@
-explosion_particles(x, y, global.cor);
