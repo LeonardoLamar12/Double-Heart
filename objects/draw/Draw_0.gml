@@ -1,4 +1,3 @@
-//Desenha os slots
 draw_set_alpha(0.3)
 draw_set_color(c_grey)
 draw_circle(680,690,40,0)
@@ -6,7 +5,6 @@ draw_circle(800,690,40,0)
 draw_set_alpha(1)
 draw_set_color(c_white)
 
-//Desenha a essencia do tiro
 if global.essencia=0{
 	draw_text(640,690,"");
 }else if global.essencia=1{
@@ -25,7 +23,6 @@ if global.essencia=0{
 	draw_sprite(spr_esse7,1,680,690);
 }
 
-//Desenha o formato do tiro
 if global.formato=0{
 	draw_text(640,690,"");
 }else if global.formato=1{
@@ -44,7 +41,7 @@ if global.formato=0{
 	draw_sprite(spr_esse7,1,800,690);
 }
 
-//Desenha os corações
+
 for (var i = 0; i < 6; i++) {
     draw_sprite(spr_coracaoV, 0, 80 + (i * 32), 55);
 }
@@ -53,6 +50,7 @@ for (var i = 0; i < global.vidaP; i++) {
     draw_sprite(spr_coracao, 0, 80 + (i * 32), 55);
 }
 
-//Desenha quantidade de inimigos
-draw_text(90,55,global.qtdInimigos);
+draw_text(1320,80,global.dif)
+draw_text(1220,80,global.qtdInimigos)
+
 

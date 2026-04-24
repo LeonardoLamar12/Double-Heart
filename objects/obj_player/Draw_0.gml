@@ -1,4 +1,3 @@
-//Faz a sombra do personagem
 draw_set_color(c_black);
 draw_set_alpha(0.1);
 

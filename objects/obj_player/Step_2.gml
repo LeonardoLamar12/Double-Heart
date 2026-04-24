@@ -1,5 +1,7 @@
-// Guarda apenas o sinal da velocidade vertical e horizontal e guarda sua direção em relação ao plano
+// Guarda apenas o sinal da velocidade horizontal (-1, 0 ou 1), indicando a direção do movimento
 var velh = sign(hspd)
+
+// Guarda apenas o sinal da velocidade vertical (-1, 0 ou 1), indicando a direção do movimento
 var velv = sign(vspd)
 
 // Repete o movimento horizontal pixel a pixel, a quantidade de vezes igual ao valor absoluto de hspd

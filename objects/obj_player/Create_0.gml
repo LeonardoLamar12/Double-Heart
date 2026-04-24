@@ -10,10 +10,10 @@ cd=0;
 global.esse = false;
 global.forma = false;
 
-global.essencia = 2;
-global.formato = 1;
+global.essencia = 0;
+global.formato = 0;
 
 global.cor=c_red;
 
 global.i=0;
-global.dif=5;
+global.dif=1;
