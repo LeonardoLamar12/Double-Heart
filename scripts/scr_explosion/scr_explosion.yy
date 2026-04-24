@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_explosion",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_explosion",
+  "parent":{
+    "name":"bases",
+    "path":"folders/bases.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
